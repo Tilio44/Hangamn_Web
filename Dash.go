@@ -4,7 +4,7 @@ package hangman
 func Dash(word string) string {
 	wordDash := []byte(word)
 	for j := 0; j < len(word); j++ {
-		wordDash[j] = 22;
+		wordDash[j] = 93;
 	}
 	return string(wordDash)
 }
